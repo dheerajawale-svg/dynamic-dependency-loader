@@ -106,7 +106,7 @@ namespace DynamicDependencyLoader
         {
             _config = config ?? throw new ArgumentNullException(nameof(config));
             _contextBuilder = CreateLoadContextBuilder(config);
-            _context = (ReaderLoadContext)_contextBuilder.Build();            
+            _context = (ReaderLoadContext)_contextBuilder.Build();
         }
 
         /// <summary>

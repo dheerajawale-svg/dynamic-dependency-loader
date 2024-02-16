@@ -3,12 +3,25 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Title>DynamicDependencyLoader for Natus projects</Title>
-    <Company>Natus</Company>
+    <Company>Deathrace</Company>
     <Description>This loader attempts to load binaries for execution (both managed assemblies and native libraries)</Description>
     <PackageId>$(AssemblyName)</PackageId>
-    <Copyright>Natus</Copyright>
+    <Copyright></Copyright>
     <Version></Version>
-    <Authors>Architect Team</Authors>
+    <Authors>Dheeraj Awale</Authors>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
